@@ -1,0 +1,61 @@
+body {
+    color: rgb(92, 92, 92);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    border: solid 8px rgb(156, 162, 247); 
+    border-radius: 10px;
+    padding: 50px 150px;
+    /* align-content: center; */
+    text-align: justify;
+}
+
+#aboutme h1 {
+    color: rgb(106, 245, 175);
+    text-align: left;
+  }
+
+#aboutme {
+    padding-top: 40px;
+  }
+
+#cycling {
+   padding: 40px 330px;
+}
+
+#contact {
+    padding-top: 40px;
+}
+
+#contact h2 {
+    color: rgb(112, 167, 250);
+    text-align: left;
+}
+
+#myphoto {
+    padding: 0px 0px;
+}
+
+#handbag {
+    padding-left:800px;
+}
+
+
+.button {
+    display: inline-block;
+    background: rgb(117, 239, 243);
+    border: solid 1px #999;
+    border-radius: 5px;
+    color: rgb(247, 103, 247);
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+ }
+ 
+ .button:hover {
+     border-color: #333;
+     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+     background: rgb(73, 243, 186);
+     background: linear-gradient(to top, rgb(148, 223, 241), rgb(17, 128, 255));
+     
+ }
