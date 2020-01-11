@@ -1,0 +1,99 @@
+
+body {
+    background: url('img/LemonBackground.png') center center no-repeat;
+    background-size: cover;
+    color: rgb(92, 92, 92);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    border: solid 8px lawngreen;
+    border-radius: 10px;
+}
+
+
+#container {
+    width: 620px;
+    margin: 0 auto;
+}
+
+header  {
+    text-align: center;
+    padding: 5px 0;
+}
+
+nav {
+    margin-top: 2px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 20 15px;
+    font-size: 18px;
+}
+
+ul ol {
+    padding: 0 170px 10 120px;
+}
+
+a:link {
+    color: gray;
+    text-decoration: none;
+    text-transform: capitalize; 
+}
+
+a:visited {
+    color: rgb(247, 119, 161);
+}
+
+a:hover {
+    color: #22aa98;
+}
+
+#tagline {
+    text-align: center;
+    margin: 50px 0 0px;
+}
+
+#tagline h1 {
+    margin-bottom: 80px;
+}
+
+#tagline h1 em {
+    font-weight: normal;
+    font-style: normal;
+    display: block;
+}
+
+a.button {
+    display: block;
+    height: 86px;
+    widows: 305px;
+    background: url('img/Button.png') top left no-repeat;
+    box-shadow: rgb(0, 255, 255);
+    margin: 50px 150px; 
+    color: black;
+    font-size: 18px;
+    line-height: 86px;
+    text-transform: uppercase;
+}
+
+a.button:hover {
+    color:rgb(255, 255, 255);
+    text-shadow: 0 1px 5px rgb(38, 252, 31);
+}
+
+a.button:active {
+    position: relative;
+    top: 1px;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 150px;
+}
